@@ -1,0 +1,12 @@
+/* body {
+	background-color: lightblue !important;
+  } */
+ 
+
+  [data-component-name]::before {
+	content: attr(data-component-name);
+	display: block;
+	font-size: 12px;
+	color: red;
+	margin-bottom: 5px;
+  }

@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Mask Unmask Injector",
+	"version": "1.0",
+	"description": "Injects CSS into webpages.",
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html"
+	  
+	},
+	"icons": {
+	 
+	}
+  }
+  
